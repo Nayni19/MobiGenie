@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>MobiGenie</title>
+</head>
+
+<body class="buyer-body">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #126E82;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MobiGenie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Account Info</a></li>
+                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" style="background-color: #BAE8E8;"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Carousel for trending products -->
+    <div class="white-sec">
+        <h1>New Products</h1>
+        <div class="products-carousel">
+            <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="Images/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Iphone 12 Pro</h5>
+                            <p>Available in 5 colors. Ceramic Shield front
+                                Textured matt glass back and
+                                stainless steel design</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Images/4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Iphone 12</h5>
+                            <p>Available in 7 different colors. Ceramic Shield front
+                                Glass back and aluminium design</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>OnePlus 9 Pro</h5>
+                            <p>Starting at Rs 40,000. It uses a 6.7-inch LTPO OLED display which the company claims cuts
+                                power consumption by up to 50 percent compared to the previous model.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Carousel for trending products -->
+    <div class="blue-sec">
+        <h1>Trending Products</h1>
+        <div class="products-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/8.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/9.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Brand Section -->
+    <div class="Brand-division">
+        <h1>Brands</h1>
+        <div class="brand-cards container">
+            <div class="row">
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/oppo.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/apple2.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/oneplus.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/vivo2.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/lenovo.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/samsung.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/blackberry.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+                <div class="col col-lg-3 col-md-6">
+                    <img src="Images/xiaomi.jpg" class=" brand-image rounded shadow p-3 mb-5 bg-white" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Products Division -->
+<div class="blue-sec">
+    <h1>Products</h1>
+    <div class="brand-cards container">
+        <div class="row">
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/mobile-phones.jpg" class=" brand-image rounded shadow mb-5" alt="...">
+
+            </div>
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/chargers.jpg" class=" brand-image rounded shadow mb-5" alt="...">
+            </div>
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/earphones.jpg" class=" brand-image rounded shadow  mb-5" alt="...">
+            </div>
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/mobile-covers.jpg" class=" brand-image rounded shadow mb-5" alt="...">
+            </div>
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/scratch-guards.jpg" class=" brand-image rounded shadow mb-5" alt="...">
+
+            </div>
+            <div class="col col-lg-4 col-md-6">
+                <img src="Images/headphones.jpg" class=" brand-image rounded shadow mb-5" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="white-sec contact-us">
+    <div class="card-body">
+        <div class="text-center">
+            <h2 class="contact-us-header">GET IN TOUCH</h2>
+        </div>
+        <div class="contact-us-detail">
+            <h3 class=" shorten card-title">Having an Issue or doubt? Dont hesitate.
+                <br> We can help you out with it.
+                Just pick up the phone and call us!
+            </h3>
+            <p class="card-text">
+                Phone no: 7977592693
+                <br />
+                Email: mobigenie@gmail.com
+                <br />
+                Head Office: Nirman Kendra, Dr E Moses Road, Mahalaxmi, Mumbai- 400061.
+            </p>
+        </div>
+        <a class="btn-2" href="contact.html">Contact Us</a>
+    </div>
+</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
